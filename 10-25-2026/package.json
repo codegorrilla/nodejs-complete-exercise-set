@@ -1,0 +1,25 @@
+{
+	"name": "10-25-2026",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "tsx --watch src/index.ts",
+		"build": "tsc",
+		"fs": "tsx --watch src/fsModule.ts",
+		"fs2": "tsx --watch src/fsModule-2.ts",
+		"route": "tsx --watch src/routing.ts"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"type": "commonjs",
+	"devDependencies": {
+		"@types/node": "^26.6.5",
+		"tsx": "^4.23.15",
+		"typescript": "^7.0.2"
+	},
+	"dependencies": {
+		"dotenv": "^18.0.9"
+	}
+}
